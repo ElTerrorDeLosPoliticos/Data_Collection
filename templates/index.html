@@ -1,0 +1,42 @@
+<h1 id="etdlp-microservicios">ETDLP</h1>
+<p>Portal de scraping serverless de ETDLP. Desde visitas hasta información de proveedores... lo que quieras, lo tenemos. 😎</p>
+<h2 id="api-reference">API Reference</h2>
+<h4 id="obtiene-el-historial-partidario-seg-n-dni">Obtiene el historial partidario según DNI</h4>
+<pre><code class="lang-http">  <span class="hljs-meta">GET</span> /consulta_rop/{dni}
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Parameter</th>
+<th style="text-align:left">Type</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>dni</code></td>
+<td style="text-align:left"><code>int</code></td>
+<td style="text-align:left"><strong>Required</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p>#</p>
+<h4 id="obtiene-la-informaci-n-de-empresas-proveedoras">Obtiene la información de empresas proveedoras</h4>
+<pre><code class="lang-http">  <span class="hljs-meta">GET</span> /info_proveedores/{ruc}
+</code></pre>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Parameter</th>
+<th style="text-align:left">Type</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><code>ruc</code></td>
+<td style="text-align:left"><code>int</code></td>
+<td style="text-align:left"><strong>Required</strong> Retorna información de la empresa</td>
+</tr>
+</tbody>
+</table>
