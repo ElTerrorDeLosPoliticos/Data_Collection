@@ -1,7 +1,7 @@
 
 # ETDLP - Microservicios
 
-Portal de APIs a microservicios de El Terror De Los Políticos. Desde visitas hasta información de proveedores... lo que quieras, lo tenemos. 😎
+Portal de APIs a microservicios de ETDLP. Desde visitas hasta información de proveedores... lo que quieras, lo tenemos. 😎
 ## API Reference
 
 #
